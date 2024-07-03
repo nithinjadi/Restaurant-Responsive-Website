@@ -1,0 +1,100 @@
+
+nav {
+    display: flex;
+    height: 40px;
+    background-color: #EF6351;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>li {
+    list-style: none;
+}
+
+img {
+    object-fit: fill;
+    object-position: center;
+}
+
+.page1 {
+    height: calc(100% - 40px);
+    background-image: linear-gradient(#FFF59E, #F4BBC9);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 40px;
+}
+
+.page1>img {
+    width: 50%;
+}
+
+.sub1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-inline-end: 40px;
+}
+
+.sub1>button {
+    width: 100px;
+    background-color: #EF6351;
+    border-width: 0px;
+    height: 30px;
+}
+
+.page2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#FFF59E, #F4BBC9);
+
+    gap: 40px;
+}
+
+.page2 * {
+    width: 200px;
+}
+
+.sub2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sub2>img {
+    height: 200px;
+}
+
+.sub3 {
+    width: 50%;
+    gap: 20px;
+
+}
+
+#arrow {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.box-container {
+    background-color: #EF6351;
+    height: cover;
+    width: 360px;
+}
+
+.text-style {
+    margin: 10px;
+    padding: 10px;
+}
